@@ -37,7 +37,7 @@ figure {
     position: relative;
     overflow: hidden;
     width: 800px;
-    padding: 12px
+    padding: 20px 12px;
       
 }
 .action-like {
@@ -48,8 +48,7 @@ figure {
 }
 
 .film-poster {
-    position: relative;
-    margin: 
+    position: relative; 
 }
 
 .film-details {
@@ -63,8 +62,8 @@ figure {
 .action-watch-later {
     position: absolute;
     color: red;
-    top: 14px;
-    left: 195px; 
+    top: 8px;
+    left: 205px; 
 }
 .film-title {
     margin: 5px 0 5px 0;
