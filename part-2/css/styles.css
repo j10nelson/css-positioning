@@ -16,14 +16,54 @@ body {
 }
 
 img {
-  max-width: 100%;
+  display: block;
+    width: 240px;
+    margin-right: 20px;
+    float: left;  
 }
 
+h1,  {
+    line-height: 1
+}
 figure {
   margin: 0;
+    overflow: visible;
+
 }
 
 .film {
-  width: 50%;
-  margin: 40px auto;
+  margin: 40px 40px;
+    border: 1px solid #959595;
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    padding: 12px
+      
 }
+.action-like {
+    color: red;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+}
+
+.film-poster {
+    position: relative;
+    margin: 
+}
+
+.film-details {
+    width: 60%;
+    font-size: 20px;
+    float: left;
+    display: block;
+
+}
+
+.action-watch-later {
+    position: absolute;
+    color: red;
+    top: 14px;
+    left: 195px; 
+}
+
